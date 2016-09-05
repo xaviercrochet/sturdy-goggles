@@ -7,6 +7,10 @@
 .menu {
 	position: fixed;
 	top: 0;
+	background: #000;
+	left: -30%;
+	width: 30%;
+	transition: transform 1000ms ease;
 }
 
 .center {
@@ -50,13 +54,14 @@
 	z-index: 100;
 }
 
-#menuButton {
+#menu-button {
 	margin-left :auto;
 	margin-right: auto;
 	background: #000;
 	width: 80px;
 	height: 60px;
 	border: none;
+	outline: none;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -64,10 +69,33 @@
 	right: -80px;
 }
 
-#menuButton span {
+#menu-button span {
 	background: goldenrod;
 	height: 4px;
 	display: block;
 	margin: 5px auto;
 	width: 30px;
 }
+
+.menu-header {
+	padding-top: 60px;
+}
+
+.menu-header ul{
+	width: 100%;
+	list-style: none;
+}
+
+.menu-header li {
+	float: left;
+	width: 25%;
+}
+
+.menu-header li a{
+	display: block;
+	color: goldenrod;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
