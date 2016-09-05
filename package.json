@@ -1,0 +1,23 @@
+{
+  "name": "lisa-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xaviercrochet/sturdy-goggles.git"
+  },
+  "author": "xavier crochet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviercrochet/sturdy-goggles/issues"
+  },
+  "homepage": "https://github.com/xaviercrochet/sturdy-goggles#readme"
+}
