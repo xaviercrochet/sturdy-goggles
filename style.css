@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	left: 0;
+	right: 0;
+	position: fixed;
+	background: #fff;
+	height: 100%;
+}
+
+.navbar h3 {
+	color: goldenrod;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.navbar header {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+}
+
+.navbar {
+	background-color: #fff;
+	width: 100%;
+	height: 60px;
+	z-index: 100;
+}
+
+#menuButton {
+	margin-left :auto;
+	margin-right: auto;
+	background: #000;
+	width: 80px;
+	height: 60px;
+	border: none;
+	display: block;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	right: -80px;
+}
+
+#menuButton span {
+	background: goldenrod;
+	height: 4px;
+	display: block;
+	margin: 5px auto;
+	width: 30px;
+}
