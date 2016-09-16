@@ -7,9 +7,9 @@
 .menu {
 	position: fixed;
 	top: 0;
-	background: #000;
-	left: -30%;
-	width: 30%;
+	background: #fff;
+	left: -35%;
+	width: 35%;
 	transition: transform 1000ms ease;
 }
 
@@ -57,7 +57,7 @@
 #menu-button {
 	margin-left :auto;
 	margin-right: auto;
-	background: #000;
+	background: #fff;
 	width: 80px;
 	height: 60px;
 	border: none;
@@ -91,6 +91,10 @@
 	width: 25%;
 }
 
+.menu-header a {
+	font-weight: bold;
+}
+
 .menu-header li a{
 	display: block;
 	color: goldenrod;
@@ -98,4 +102,57 @@
 	text-decoration: none;
 	padding: 10px;
 }
+
+.navbar a {
+	text-decoration: none;
+}
+
+.image-header {
+	display: block;
+	width: 100%;
+	height: 60px;
+}
+
+.menu-icon {
+	height: 54px;
+	width: auto;
+	margin-top: 3px;
+	margin-bottom: 3px;	
+}
+
+#about-content, #image-content {
+	display: none;
+}
+
+#about-content {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#about-content p {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.quotes-block cite {
+	float: right;
+}
+
+.quotes-block {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.bio-block {
+	margin-top: 10px;
+}
+
+
+
+
+
 
