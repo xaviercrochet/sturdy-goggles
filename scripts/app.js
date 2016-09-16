@@ -10,6 +10,7 @@ $(function(){
 	$(window).on('hashchange', function(){
 		var hash = location.hash;
 		parseRouteHash(hash);
+		hideMenu();
 	});
 
 });
@@ -18,12 +19,11 @@ $(function(){
 	var menuOpened = false;
 	$('#menu-button').click(function(e){
 		if(menuOpened) {
-			$('.menu').css("transform", "translate(0%)");	
+			hideMenu();
 		}
 		else {
-			$('.menu').css("transform", "translate(100%)");	
+			showMenu();	
 		}
-		menuOpened = !menuOpened & true;
 	});
 });
 
@@ -63,4 +63,14 @@ function displayContent(contentId){
 
 function hideContent(contentId){
 	$(contentId).hide();
+};
+
+function hideMenu(){
+	$('.menu').css("transform", "translate(0%)");
+	menuOpened = false;	
+};
+
+function showMenu(){
+	$('.menu').css("transform", "translate(100%)");
+	menuOpened = true;	
 };
