@@ -1,6 +1,6 @@
 
 var displayedContent;
-
+var menuOpened = false;
 $(function(){
 	var initialHash = window.location.hash;
 	parseRouteHash(initialHash);
@@ -16,7 +16,6 @@ $(function(){
 });
 
 $(function(){
-	var menuOpened = false;
 	$('#menu-button').click(function(e){
 		if(menuOpened) {
 			hideMenu();

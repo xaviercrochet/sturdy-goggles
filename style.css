@@ -2,14 +2,19 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	color: #fff;
+}
+
+body{
+	background-image: url(images/honney_1.jpg);
 }
 
 .menu {
 	position: fixed;
 	top: 0;
 	background: #fff;
-	left: -35%;
-	width: 35%;
+	left: -40%;
+	width: 40%;
 	transition: transform 1000ms ease;
 }
 
@@ -88,7 +93,7 @@
 
 .menu-header li {
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 .menu-header a {
@@ -125,32 +130,49 @@
 }
 
 #about-content {
-	width: 80%;
+	margin-top: 10px;
+	background: rgba(0,0,0, 0.82);
+	border-radius: 10px;
+	padding: 25px;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #about-content p {
-	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	font-size: 120%;
 }
 
 .quotes-block cite {
 	float: right;
+	margin-top: 5px;
+	margin-bottom: 3px;
 }
 
 .quotes-block {
-	margin-left: 100px;
-	margin-right: 100px;
 	margin-bottom: 50px;
-	padding: 10px;
+}
+
+.quotes-block p {
+	text-align: center;
 }
 
 .bio-block {
 	margin-top: 10px;
 }
 
+.first-character {
+	float: left; 
+	color: goldenrod; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+	font-family: Georgia;
+}
 
 
 
